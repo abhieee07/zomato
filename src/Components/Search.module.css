@@ -1,0 +1,51 @@
+.search {
+	width: 100%;
+	background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+	position: relative;
+	height: 550px;
+	background-position: center;
+	background-size: cover;
+	opacity: 1;
+	text-align: center;
+	overflow: hidden;
+}
+.search img {
+	margin-top: 200px;
+	width: 300px;
+	height: 60px;
+	/* box-sizing: border-box; */
+}
+.search h2 {
+	color: white;
+	font-size: 36px;
+	/* line-height: 1.2; */
+	font-weight: 400;
+	margin-block-start: 0.83em;
+	margin-block-end: 0.83em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+.input {
+	padding: 13px;
+	width: 30%;
+	border-radius: 10px 0 0 10px;
+	outline: none;
+	background: white;
+	border: none;
+	font-size: 1.4rem;
+}
+.button {
+	padding: 12.3px;
+	background-color: #ed5a6b;
+	border-radius: 0 10px 10px 0;
+	margin-left: -2px;
+	align-items: center;
+	display: inline-block;
+}
+.icon {
+	background: transparent;
+	border: none;
+	color: white;
+	font-size: 1.3rem;
+	outline: none;
+}

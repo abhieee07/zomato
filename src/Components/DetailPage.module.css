@@ -1,0 +1,124 @@
+.detail {
+	height: 100%;
+	width: 100%;
+	background: white;
+	float: none;
+	transition: all 0.8s linear;
+}
+.bannerImg {
+	width: 1000px;
+	height: 420px;
+	margin-top: 30px;
+	border-radius: 10px;
+	transition: all 0.8s linear;
+	cursor: pointer;
+}
+.logo {
+	width: 120px;
+	height: 25px;
+	padding: 15px 40px;
+}
+.title {
+	color: rgb(28, 28, 28);
+	font-weight: 500;
+	font-size: 40px;
+	cursor: pointer;
+	margin-right: 90px;
+}
+.content {
+	margin-left: 200px;
+}
+.box {
+	/* line-height: normal; */
+	color: #fff;
+	padding: 2px 4px 2px 4px;
+	border-radius: 3px;
+	font-weight: 500;
+	font-size: 15px;
+	vertical-align: middle;
+	background-color: #388e3c;
+}
+.box i {
+	color: white;
+}
+.rating {
+	margin-top: 34px;
+}
+.review {
+	font-size: 16px;
+	color: #696969;
+	margin-left: 10 px;
+}
+.titleContainer {
+	display: flex;
+	justify-content: space-between;
+	max-width: 75%;
+}
+.type {
+	color: rgb(105, 105, 105);
+	font-size: 16px;
+	font-weight: 300;
+	display: block;
+	margin-top: -5px;
+}
+.locality {
+	color: #9c9c9c;
+	font-size: 16px;
+	font-weight: 300;
+	display: block;
+	margin-top: 3px;
+}
+.timing {
+	color: #f4a266;
+	word-spacing: 0.5rem;
+}
+.content img:hover {
+	transform: scale(1.1);
+	transition: all 0.8s linear;
+}
+.number {
+	margin-top: 10px;
+	color: rgb(105, 105, 105);
+	font-size: 16px;
+	font-weight: 300;
+	display: block;
+}
+
+.time {
+	margin-bottom: 10px;
+	margin-top: 2px;
+}
+.Contact {
+	color: #f4a266;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.cont {
+	margin-bottom: 5px;
+}
+.header {
+	font-size: 1.5rem;
+	margin-top: 23px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	color: rgb(28, 28, 28);
+	display: block;
+}
+.menu img {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.cuisines {
+	margin-top: 4px;
+	font-size: 18px;
+	color: #4f4f4f;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+.Moreinfo {
+	margin-right: 20px;
+}
+.Moreinfo i {
+	font-size: 25px;
+	color: rgb(17, 145, 153);
+}

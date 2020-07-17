@@ -1,0 +1,123 @@
+.Resturent {
+	width: 800px;
+	height: 240px;
+	margin-bottom: 50px;
+}
+.ResturentCard {
+	margin-left: 35%;
+	width: 100%;
+	border-radius: 5px 5px 0 0;
+	background-color: white;
+	padding: 10px;
+	cursor: pointer;
+}
+.imageContainer {
+	width: 26%;
+	/* height: 100%; */
+}
+.imageContainer img {
+	height: 200px;
+	width: 200px;
+	background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+}
+.infoContainer {
+	width: 70%;
+	/* height: 100%; */
+	float: right;
+	margin-top: -14px;
+	cursor: pointer;
+}
+.title {
+	color: #cb202d;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 22px;
+}
+.box {
+	line-height: normal;
+	display: inline-block;
+	color: #fff;
+	padding: 2px 4px 2px 4px;
+	border-radius: 3px;
+	font-weight: 500;
+	font-size: 11px;
+	vertical-align: middle;
+	background-color: #388e3c;
+	margin-right: 10px;
+}
+.box i {
+	color: white;
+}
+.rating {
+	margin-top: -20px;
+	width: 100%;
+}
+.review {
+	font-size: 13px;
+	color: #696969;
+}
+.cuisines {
+	color: #89959b;
+	text-transform: capitalize;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.costfortwo {
+	margin-top: 5px;
+	color: #89959b;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+.timing {
+	margin-top: 5px;
+	color: #33373d;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+.contact {
+	margin-top: 10px;
+	color: #33373d;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+
+.viewCard {
+	margin-left: 35%;
+	border: 1px solid #dcdcdc;
+	width: 101%;
+	height: 33px;
+	border-radius: 0 0 5px 5px;
+	background-color: white;
+	padding: 5px;
+	cursor: pointer;
+}
+.viewCard a {
+	background: #e6f5ec;
+	border: 1px solid white;
+	outline: none;
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.6);
+	border: 2px solid #e6f5ec;
+	padding: 0.6rem 0.9rem;
+	display: inline-block;
+	transition: all 0.4s linear;
+	cursor: pointer;
+	font-size: 0.8rem;
+	text-align: center;
+	text-decoration: none;
+}
+.viewCard a:hover {
+	background-color: #099e44;
+	color: white;
+	transition: all 0.4s linear;
+}
+.btn {
+	float: right;
+	margin-top: -5px;
+	margin-right: -5px;
+}
+.icon i {
+	font-size: 20px;
+	margin-left: 10px;
+	font-weight: bold;
+}
